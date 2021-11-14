@@ -1,0 +1,480 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "originSender",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "_approve",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getExternalStorage",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "originSender",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "_transfer",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "_decimals",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "_totalSupply",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "originSender",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "addedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "_increaseAllowance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_t",
+						"type": "address"
+					}
+				],
+				"name": "getAccessList",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "originSender",
+						"type": "address"
+					},
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "_transferFrom",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "originSender",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "subtractedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "_decreaseAllowance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "_symbol",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "_balanceOf",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "_name",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					}
+				],
+				"name": "_allowance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "symbol",
+						"type": "string"
+					},
+					{
+						"name": "decimals",
+						"type": "uint8"
+					},
+					{
+						"name": "_externalStorage",
+						"type": "address"
+					},
+					{
+						"name": "initialDeployment",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"_allowance(address,address)": {
+					"details": "Function to check the amount of tokens that an owner allowed to a spender.\r",
+					"params": {
+						"owner": "address The address which owns the funds.\r",
+						"spender": "address The address which will spend the funds.\r"
+					},
+					"return": "A uint256 specifying the amount of tokens still available for the spender.\r"
+				},
+				"_approve(address,address,uint256)": {
+					"details": "Approve the passed address to spend the specified amount\r of tokens on behalf of msg.sender.  Beware that changing an\r allowance with this method brings the risk that someone may use\r both the old and the new allowance by unfortunate transaction\r ordering. One possible solution to mitigate this race condition\r is to first reduce the spender's allowance to 0 and set the\r desired value afterwards:\r https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\r",
+					"params": {
+						"originSender": "the original transaction sender\r",
+						"spender": "The address which will spend the funds.\r",
+						"value": "The amount of tokens to be spent.\r"
+					}
+				},
+				"_balanceOf(address)": {
+					"details": "Gets the balance of the specified address.\r",
+					"params": {
+						"owner": "The address to query the balance of.\r"
+					},
+					"return": "An uint256 representing the amount owned by the passed address.\r"
+				},
+				"_decimals()": {
+					"return": "the number of decimals of the token.\r"
+				},
+				"_decreaseAllowance(address,address,uint256)": {
+					"details": "Decrease the amount of tokens that an owner allowed to a\r spender.  approve should be called when allowed_[_spender] ==\r 0. To decrement allowed value is better to use this function to\r avoid 2 calls (and wait until the first transaction is mined)\r From MonolithDAO Token.sol\r",
+					"params": {
+						"originSender": "the original transaction sender\r",
+						"spender": "The address which will spend the funds.\r",
+						"subtractedValue": "The amount of tokens to decrease the allowance by.\r"
+					}
+				},
+				"_increaseAllowance(address,address,uint256)": {
+					"details": "Increase the amount of tokens that an owner allowed to a spender.\r approve should be called when allowed_[_spender] == 0. To increment\r allowed value is better to use this function to avoid 2 calls (and wait until\r the first transaction is mined)\r From MonolithDAO Token.sol\r",
+					"params": {
+						"addedValue": "The amount of tokens to increase the allowance by.\r",
+						"originSender": "the original transaction sender\r",
+						"spender": "The address which will spend the funds.\r"
+					}
+				},
+				"_name()": {
+					"return": "the name of the token.\r"
+				},
+				"_symbol()": {
+					"return": "the symbol of the token.\r"
+				},
+				"_totalSupply()": {
+					"details": "Total number of tokens in existence\r"
+				},
+				"_transferFrom(address,address,address,uint256)": {
+					"details": "Transfer tokens from one address to another\r",
+					"params": {
+						"from": "address The address which you want to send tokens from\r",
+						"originSender": "the original transaction sender\r",
+						"to": "address The address which you want to transfer to\r",
+						"value": "uint256 the amount of tokens to be transferred\r"
+					}
+				},
+				"getExternalStorage()": {
+					"return": "The storage used by this contract\r"
+				}
+			},
+			"title": "Internal implementation of ERC20 functionality with support\r for a separate storage contract\r"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC Token/ERC20.sol": "ERC20"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC Token/Accesslist.sol": {
+			"keccak256": "0x4f0c3cbaf89cf1013e812c5df95abbe69382296cd7bff9edff7b426453be9004",
+			"urls": [
+				"bzzr://e2345795373b818d61e8d2534a5c8f74850a06fd90e29b73eb902be09341724c"
+			]
+		},
+		"ERC Token/BlacklistAdminRole.sol": {
+			"keccak256": "0xcba1e8a3543bc8fc570975df9950d4604acd040c98cda3c2041dfadc2d23c987",
+			"urls": [
+				"bzzr://68584f8a17427800ef79400e8d88296eac89d051e43c83322156e47ca49709d4"
+			]
+		},
+		"ERC Token/ERC20.sol": {
+			"keccak256": "0x51d8bffed1a4a53f017b0258a49fff888d854a20bda5d12f1fbce540a9831527",
+			"urls": [
+				"bzzr://fad84ee6fafd142b7cd83f87b36e26fb791c15c1e2fbf8868182899f6b3ae9fb"
+			]
+		},
+		"ERC Token/Ownable.sol": {
+			"keccak256": "0x0e12ac12104d64bafa8b06c7c40e2e6cb8a2f87441e0377c3f747fe73ba4d1be",
+			"urls": [
+				"bzzr://29756db1e9735619d08a212f5bd1c46456a586a444aff46107cf70986b92c2bf"
+			]
+		},
+		"ERC Token/Roles.sol": {
+			"keccak256": "0x25fb9e655599ed48859fd9e0ad72dd1887dd34208c83f07c8cf06185ea492a30",
+			"urls": [
+				"bzzr://026cd33538120b95d242e057e44e8eabeaf256f436420bbbd5295accb74341c6"
+			]
+		},
+		"ERC Token/SafeMath.sol": {
+			"keccak256": "0x20857ecd2eda370b77da264d6a386fc7ad1321351791607e3762166d1ea22191",
+			"urls": [
+				"bzzr://97f9cc30cca91572ea7fc3a9849c206f45db54e27fce932576c8bcf569fc9e1b"
+			]
+		},
+		"ERC Token/Storage.sol": {
+			"keccak256": "0x6518ceaa0da4125873b650717776fafb05de6d38226618496b6f972f60614d16",
+			"urls": [
+				"bzzr://99f05e279ae8279754480edc112bd05a4416b6ab01b71b54329953f76773ad32"
+			]
+		},
+		"ERC Token/WhitelistAdminRole.sol": {
+			"keccak256": "0x24a0e2efe5c74555590973e2415efc4fd8d0a98074ed2ddc3d16adfd60a612f3",
+			"urls": [
+				"bzzr://b838aa9ff78f9c16b6304cc3ffd701bcc859ebf9f8aa02a8f0c5ee26706e2038"
+			]
+		}
+	},
+	"version": 1
+}

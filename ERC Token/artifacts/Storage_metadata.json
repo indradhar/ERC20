@@ -1,0 +1,445 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "addedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseAllowed",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setAllowed",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "addedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseBalance",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "subtractedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "decreaseAllowed",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newImplementor",
+						"type": "address"
+					}
+				],
+				"name": "transferImplementor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getTotalSupply",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					}
+				],
+				"name": "getAllowed",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setBalance",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "isImplementor",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setTotalSupply",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "subtractedValue",
+						"type": "uint256"
+					}
+				],
+				"name": "decreaseBalance",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "implementor",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "StorageImplementorTransferred",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"decreaseAllowed(address,address,uint256)": {
+					"details": "Decreases the allowance relatively\r",
+					"params": {
+						"owner": "the address for which to allow from\r",
+						"spender": "the addres for which the allowance decrease is granted\r",
+						"subtractedValue": "the value to decrease with\r"
+					}
+				},
+				"decreaseBalance(address,uint256)": {
+					"details": "Decreases the balances relatively\r",
+					"params": {
+						"owner": "the address for which to decrease balance\r",
+						"subtractedValue": "the value to decrease with\r"
+					}
+				},
+				"getAllowed(address,address)": {
+					"details": "Can only be called by implementor contract.\r",
+					"return": "The current allowance for spender from owner\r"
+				},
+				"getBalance(address)": {
+					"details": "Can only be done by owner or implementor contract.\r",
+					"return": "The current balance of owner\r"
+				},
+				"getTotalSupply()": {
+					"details": "Can only be called by implementor contract.\r",
+					"return": "Current supply\r"
+				},
+				"increaseAllowed(address,address,uint256)": {
+					"details": "Increases the allowance relatively\r",
+					"params": {
+						"addedValue": "the value to increase with\r",
+						"owner": "the address for which to allow from\r",
+						"spender": "the addres for which the allowance increase is granted\r"
+					}
+				},
+				"increaseBalance(address,uint256)": {
+					"details": "Increases the balances relatively\r",
+					"params": {
+						"addedValue": "the value to increase with\r",
+						"owner": "the address for which to increase balance\r"
+					}
+				},
+				"isImplementor()": {
+					"details": "Return whether the sender is an implementor.\r"
+				},
+				"isOwner()": {
+					"return": "true if `msg.sender` is the owner of the contract.\r"
+				},
+				"owner()": {
+					"return": "the address of the owner.\r"
+				},
+				"renounceOwnership()": {
+					"details": "Allows the current owner to relinquish control of the contract.\r"
+				},
+				"setAllowed(address,address,uint256)": {
+					"details": "Sets new allowance.\r Can only be called by implementor contract.\r"
+				},
+				"setBalance(address,uint256)": {
+					"details": "Sets new balance.\r Can only be done by owner or implementor contract.\r"
+				},
+				"setTotalSupply(uint256)": {
+					"details": "Change totalSupply.\r Can only be called by implementor contract.\r"
+				},
+				"transferImplementor(address)": {
+					"details": "Transfer implementor to new contract\r Can only be called by owner or implementor contract.\r"
+				},
+				"transferOwnership(address)": {
+					"details": "Allows the current owner to transfer control of the contract to a newOwner.\r",
+					"params": {
+						"newOwner": "The address to transfer ownership to.\r"
+					}
+				}
+			},
+			"title": "External ERC20 Storage\r "
+		},
+		"userdoc": {
+			"methods": {
+				"renounceOwnership()": {
+					"notice": "Renouncing to ownership will leave the contract without an owner.\r It will not be possible to call the functions with the `onlyOwner`\r modifier anymore.\r"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC Token/Storage.sol": "Storage"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC Token/Ownable.sol": {
+			"keccak256": "0x71587049436299f4585de59264cd67cce3994d0930035ffe7775fdcc6d12c2fe",
+			"urls": [
+				"bzzr://82c5fb3391bcbbfb221287c1141fb9d3f93c55eab6679bc61c45e63adc69eed2"
+			]
+		},
+		"ERC Token/SafeMath.sol": {
+			"keccak256": "0x20857ecd2eda370b77da264d6a386fc7ad1321351791607e3762166d1ea22191",
+			"urls": [
+				"bzzr://97f9cc30cca91572ea7fc3a9849c206f45db54e27fce932576c8bcf569fc9e1b"
+			]
+		},
+		"ERC Token/Storage.sol": {
+			"keccak256": "0x6518ceaa0da4125873b650717776fafb05de6d38226618496b6f972f60614d16",
+			"urls": [
+				"bzzr://99f05e279ae8279754480edc112bd05a4416b6ab01b71b54329953f76773ad32"
+			]
+		}
+	},
+	"version": 1
+}

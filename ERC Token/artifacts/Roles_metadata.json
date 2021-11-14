@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {},
+			"title": "Roles\r"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC Token/Roles.sol": "Roles"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC Token/Roles.sol": {
+			"keccak256": "0xcb86b24bec6910d0181694fe4c6e50495cf43be8be01032eef1c72d49d3ab5fd",
+			"urls": [
+				"bzzr://ec7de6a9330efb84d950ff7ef8ef033dee9711d43cb900f526d53de7634e32f2"
+			]
+		}
+	},
+	"version": 1
+}

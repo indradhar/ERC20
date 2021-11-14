@@ -1,0 +1,560 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addWhitelisted",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isBlacklistAdmin",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addBlacklisted",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceBlacklistAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "removeWhitelisted",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isWhitelisted",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceWhitelistAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "removeBlacklistAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "removeWhitelistAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addWhitelistAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "hasAccess",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isWhitelistAdmin",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "removeBlacklisted",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addBlacklistAdmin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isBlacklisted",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "WhitelistAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "WhitelistRemoved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "BlacklistAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "BlacklistRemoved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "BlacklistAdminAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "BlacklistAdminRemoved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "WhitelistAdminAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "WhitelistAdminRemoved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"addBlacklistAdmin(address)": {
+					"details": "Adds a blacklist admin account. Is only callable by owner.\r",
+					"params": {
+						"account": "Address to be added\r"
+					}
+				},
+				"addBlacklisted(address)": {
+					"details": "Calls internal function _addBlacklisted\r to add given address to blacklist\r",
+					"params": {
+						"account": "Address to be added\r"
+					}
+				},
+				"addWhitelistAdmin(address)": {
+					"details": "Adds a whitelist admin account. Is only callable by owner.\r",
+					"params": {
+						"account": "Address to be added\r"
+					}
+				},
+				"addWhitelisted(address)": {
+					"details": "Calls internal function _addWhitelisted\r to add given address to whitelist\r",
+					"params": {
+						"account": "Address to be added\r"
+					}
+				},
+				"hasAccess(address)": {
+					"details": "Checks to see if given address is whitelisted and not blacklisted\r",
+					"params": {
+						"account": "Address to be checked\r"
+					},
+					"return": "true if address has access\r"
+				},
+				"isBlacklistAdmin(address)": {
+					"details": "Checks if account is blacklist admin\r",
+					"params": {
+						"account": "Account to check\r"
+					},
+					"return": "Boolean indicating if account is blacklist admin\r"
+				},
+				"isBlacklisted(address)": {
+					"details": "Checks to see if given address is blacklisted\r",
+					"params": {
+						"account": "Address to be checked\r"
+					},
+					"return": "true if address is blacklisted\r"
+				},
+				"isOwner()": {
+					"return": "true if `msg.sender` is the owner of the contract.\r"
+				},
+				"isWhitelistAdmin(address)": {
+					"details": "Checks if account is whitelist dmin\r",
+					"params": {
+						"account": "Account to check\r"
+					},
+					"return": "Boolean indicating if account is whitelist admin\r"
+				},
+				"isWhitelisted(address)": {
+					"details": "Checks to see if the given address is whitelisted\r",
+					"params": {
+						"account": "Address to be checked\r"
+					},
+					"return": "true if address is whitelisted\r"
+				},
+				"owner()": {
+					"return": "the address of the owner.\r"
+				},
+				"removeBlacklistAdmin(address)": {
+					"details": "Removes a blacklist admin account. Is only callable by owner\r",
+					"params": {
+						"account": "Address to be removed\r"
+					}
+				},
+				"removeBlacklisted(address)": {
+					"details": "Calls internal function _removeBlacklisted\r to remove given address from blacklist\r",
+					"params": {
+						"account": "Address to be removed\r"
+					}
+				},
+				"removeWhitelistAdmin(address)": {
+					"details": "Removes a whitelist admin account. Is only callable by owner.\r",
+					"params": {
+						"account": "Address to be removed\r"
+					}
+				},
+				"removeWhitelisted(address)": {
+					"details": "Calls internal function _removeWhitelisted\r to remove given address from the whitelist\r",
+					"params": {
+						"account": "Address to be removed\r"
+					}
+				},
+				"renounceBlacklistAdmin()": {
+					"details": "Allows privilege holder to renounce their role "
+				},
+				"renounceOwnership()": {
+					"details": "Allows the current owner to relinquish control of the contract.\r"
+				},
+				"renounceWhitelistAdmin()": {
+					"details": "Allows a privileged holder to renounce their role "
+				},
+				"transferOwnership(address)": {
+					"details": "Allows the current owner to transfer control of the contract to a newOwner.\r",
+					"params": {
+						"newOwner": "The address to transfer ownership to.\r"
+					}
+				}
+			},
+			"title": "The Accesslist contract\r"
+		},
+		"userdoc": {
+			"methods": {
+				"renounceOwnership()": {
+					"notice": "Renouncing to ownership will leave the contract without an owner.\r It will not be possible to call the functions with the `onlyOwner`\r modifier anymore.\r"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC Token/Accesslist.sol": "Accesslist"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC Token/Accesslist.sol": {
+			"keccak256": "0x4f0c3cbaf89cf1013e812c5df95abbe69382296cd7bff9edff7b426453be9004",
+			"urls": [
+				"bzzr://e2345795373b818d61e8d2534a5c8f74850a06fd90e29b73eb902be09341724c"
+			]
+		},
+		"ERC Token/BlacklistAdminRole.sol": {
+			"keccak256": "0xcba1e8a3543bc8fc570975df9950d4604acd040c98cda3c2041dfadc2d23c987",
+			"urls": [
+				"bzzr://68584f8a17427800ef79400e8d88296eac89d051e43c83322156e47ca49709d4"
+			]
+		},
+		"ERC Token/Ownable.sol": {
+			"keccak256": "0x0e12ac12104d64bafa8b06c7c40e2e6cb8a2f87441e0377c3f747fe73ba4d1be",
+			"urls": [
+				"bzzr://29756db1e9735619d08a212f5bd1c46456a586a444aff46107cf70986b92c2bf"
+			]
+		},
+		"ERC Token/Roles.sol": {
+			"keccak256": "0x25fb9e655599ed48859fd9e0ad72dd1887dd34208c83f07c8cf06185ea492a30",
+			"urls": [
+				"bzzr://026cd33538120b95d242e057e44e8eabeaf256f436420bbbd5295accb74341c6"
+			]
+		},
+		"ERC Token/WhitelistAdminRole.sol": {
+			"keccak256": "0x24a0e2efe5c74555590973e2415efc4fd8d0a98074ed2ddc3d16adfd60a612f3",
+			"urls": [
+				"bzzr://b838aa9ff78f9c16b6304cc3ffd701bcc859ebf9f8aa02a8f0c5ee26706e2038"
+			]
+		}
+	},
+	"version": 1
+}
